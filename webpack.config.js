@@ -10,7 +10,7 @@ module.exports = {
 		
 		// 결과물(번들)을 반환하는 설정 
 		output: {
-				path: path.resolve(__dirname, 'public'),
+				path: path.resolve(__dirname, 'dist'),
 				// path 속성은 번들된 파일이 저장될 디렉토리를 설정. 현재 webpack.config.js 파일이 있는 디렉토리에서부터 상대적인 위치에 'public' 디렉토리를 지정하고 그곳에 번들된 파일을 저장.
 				filename: 'app.js',
 				// 번들된 JavaScript 파일의 이름은 app.js
